@@ -1,0 +1,8 @@
+secret_key_base: "XXXXXX"
+aws_bucket: "bucketname"
+aws_secret_access_key: "XXXXXX"
+aws_access_key_id: "XXXXXX"
+aws_host: "https://XXXXXX.cloudfront.net"
+aws_region: "us-west-1"
+app_name: 'Picture uploader'
+app_url: ''
