@@ -1,24 +1,29 @@
-# README
+example-shrine-dropzone
+=======================
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Read the blog post about this example here: [https://codyeatworld.com/2017/04/18/rails-uploading-images-confidently-with-shrine-rb/](Rails: Uploading images confidently with Shrine.rb)
 
-Things you may want to cover:
+There are two branches, one with background jobs enabled ([https://github.com/codyeatworld/example-shrine-dropzone/tree/backgrounding](backgrounding)) and one with it disabled/removed ([https://github.com/codyeatworld/example-shrine-dropzone](master))
 
-* Ruby version
 
-* System dependencies
+* * *
 
-* Configuration
+**Source code**: [https://github.com/codyeatworld/example-shrine-dropzone](https://github.com/codyeatworld/example-shrine-dropzone)
 
-* Database creation
+**Backgrounding**: [https://github.com/codyeatworld/example-shrine-dropzone/tree/backgrounding](https://github.com/codyeatworld/example-shrine-dropzone/tree/backgrounding)
 
-* Database initialization
+**Live example**: [https://stark-falls-70810.herokuapp.com/](https://stark-falls-70810.herokuapp.com/)
 
-* How to run the test suite
+* * *
 
-* Services (job queues, cache servers, search engines, etc.)
+**Features**
 
-* Deployment instructions
-
-* ...
++ Upload images to Amazon S3
++ Image versioning (sm, mg, lg, etc...)
++ Ensure image files are cleaned up
++ Upload in background
++ Validate size and filetype
++ Remove attached image
++ Cache image file on errors
++ Drag and drop upload
++ Access images through CloudFront CDN
